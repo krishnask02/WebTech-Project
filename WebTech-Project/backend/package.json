@@ -1,0 +1,25 @@
+{
+  "name": "webtech-backend",
+  "version": "1.0.0",
+  "description": "Backend for WebTech Project",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
